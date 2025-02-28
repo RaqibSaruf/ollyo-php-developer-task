@@ -4,13 +4,19 @@
     "autoload": {
         "psr-4": {
             "Ollyo\\Task\\": "src/"
-        }
-    },
+        },
+        "files": [
+            "helper.php"
+        ]
+    },    
     "authors": [
         {
             "name": "Ollyo",
             "email": "hello@ollyo.com"
         }
     ],
-    "require": {}
+    "require": {
+        "paypal/paypal-payouts-sdk": "~1.0.0",
+        "paypal/paypal-server-sdk": "0.6.1"
+    }
 }
